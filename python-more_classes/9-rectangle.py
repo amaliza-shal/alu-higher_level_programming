@@ -4,7 +4,8 @@
 
 
 class Rectangle:
-    """Creates a rectangle."""
+
+    """ Creates a rectangle."""
     number_of_instances = 0
     print_symbol = '#'
 
