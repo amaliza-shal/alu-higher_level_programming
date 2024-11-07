@@ -1,5 +1,6 @@
 
 #!/usr/bin/python3
+#Define a rectangle 
 """
 This module defines a class - Rectangle
 """
