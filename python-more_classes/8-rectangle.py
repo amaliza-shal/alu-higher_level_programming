@@ -14,12 +14,12 @@ class Rectangle:
         self.height = height
         Rectangle.number_of_instances += 1
 
-    #property
+    @property
     def width(self):
         """Retrieves the width."""
         return self.__width
 
-    #width.setter
+    @width.setter
     def width(self, value):
         """Sets the width of a Rectangle instance
         """
@@ -29,12 +29,12 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         self.__width = value
 
-    #property
+    @property
     def height(self):
         """Provides the height."""
         return self.__height
 
-    #height.setter
+    @height.setter
     def height(self, value):
         """Sets the height of a Rectangle instance
         """
@@ -57,7 +57,7 @@ class Rectangle:
         else:
             return 2 * (self.__height + self.__width)
 
-    #staticmethod
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """Returns the biggest rectangle based on the area
         """
