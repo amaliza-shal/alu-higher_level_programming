@@ -1,6 +1,6 @@
 
-#!/usr/bin/python3
-#Define a rectangle 
+'#!/usr/bin/python3'
+'#Define a rectangle' 
 """
 This module defines a class - Rectangle
 """
@@ -102,4 +102,3 @@ class Rectangle:
     @classmethod
     def square(cls, size=0):
         return Rectangle(size, size)
-
