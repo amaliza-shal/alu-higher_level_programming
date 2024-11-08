@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 '''Public instance method: def area(self):'''
 
@@ -16,4 +15,3 @@ class BaseGeometry:
 
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
-
