@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
     define a class 'Square'
@@ -85,4 +84,3 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
-
