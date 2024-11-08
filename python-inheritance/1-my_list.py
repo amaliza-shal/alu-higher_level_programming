@@ -10,6 +10,5 @@ class MyList(list):
         '''Prints the list in a sorted order  '''
         sorted_list = self[:]
         sorted_list.sort()
-        print("{}".format(sorted_list))
-
+        print("{}".format(sorted_list))  
 
