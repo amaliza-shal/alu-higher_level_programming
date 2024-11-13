@@ -2,7 +2,7 @@
 ''' returns object (Python data structure) represented by a JSON string:'''
 
 
-import json
+#import json
 
 
 def from_json_string(my_obj):
