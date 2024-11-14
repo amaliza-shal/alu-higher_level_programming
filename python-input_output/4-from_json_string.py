@@ -1,10 +1,17 @@
 #!/usr/bin/python3
-''' returns object (Python data structure) represented by a JSON string:'''
+# function that returns an object (Python data structure),
+# represented by a JSON string
+"""
+    define a function 'from_json_string'
+    import 'json'
+"""
+
+import json
 
 
-#import json
+def from_json_string(my_str):
+    """
+        return object represented by a JSON string
+    """
 
-
-def from_json_string(my_obj):
-    '''The real function that returns a json obj'''
-    return json.loads(my_obj)
+    return json.loads(my_str)
